@@ -1,7 +1,7 @@
 /* TEPPEI VISION BOARD — Service Worker
    初回アクセスで本体＋音声をキャッシュし、以降はオフライン再生できる。
    音声を差し替えた／中身を更新したら CACHE の版番号を上げる。 */
-const CACHE = 'tvb-v1';
+const CACHE = 'tvb-v2';
 const ASSETS = [
   './',
   './index.html',
